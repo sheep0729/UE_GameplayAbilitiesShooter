@@ -819,6 +819,8 @@ void AGSHeroCharacter::InitializeFloatingStatusBar()
 				UIFloatingStatusBar->SetShieldPercentage(GetShield() / GetMaxShield());
 				UIFloatingStatusBar->OwningCharacter = this;
 				UIFloatingStatusBar->SetCharacterName(CharacterName);
+
+				UIFloatingStatusBar->Init();
 			}
 		}
 	}

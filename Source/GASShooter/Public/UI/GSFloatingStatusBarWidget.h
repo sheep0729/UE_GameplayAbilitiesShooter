@@ -29,4 +29,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 	void SetCharacterName(const FText& NewName);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void Init();
 };
